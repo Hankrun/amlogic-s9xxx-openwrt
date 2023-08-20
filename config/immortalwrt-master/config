@@ -5126,18 +5126,18 @@ CONFIG_PACKAGE_luci-mod-system=y
 # CONFIG_PACKAGE_luci-app-acme is not set
 # CONFIG_PACKAGE_luci-app-adblock is not set
 # CONFIG_PACKAGE_luci-app-adbyby-plus is not set
-# CONFIG_PACKAGE_luci-app-advanced-reboot is not set
-# CONFIG_PACKAGE_luci-app-advancedsetting is not set
+CONFIG_PACKAGE_luci-app-advanced-reboot=y
+CONFIG_PACKAGE_luci-app-advancedsetting=y
 # CONFIG_PACKAGE_luci-app-ahcp is not set
 # CONFIG_PACKAGE_luci-app-airplay2 is not set
 # CONFIG_PACKAGE_luci-app-airwhu is not set
-# CONFIG_PACKAGE_luci-app-aliddns is not set
+CONFIG_PACKAGE_luci-app-aliddns=y
 CONFIG_PACKAGE_luci-app-amlogic=y
 # CONFIG_PACKAGE_luci-app-amule is not set
 # CONFIG_PACKAGE_luci-app-apinger is not set
-# CONFIG_PACKAGE_luci-app-appfilter is not set
+CONFIG_PACKAGE_luci-app-appfilter=y
 # CONFIG_PACKAGE_luci-app-argon-config is not set
-# CONFIG_PACKAGE_luci-app-aria2 is not set
+CONFIG_PACKAGE_luci-app-aria2=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-attendedsysupgrade is not set
 # CONFIG_PACKAGE_luci-app-autoreboot is not set
@@ -5160,14 +5160,14 @@ CONFIG_PACKAGE_luci-app-cifs-mount=y
 # CONFIG_PACKAGE_luci-app-dawn is not set
 # CONFIG_PACKAGE_luci-app-dcwapd is not set
 CONFIG_PACKAGE_luci-app-ddns=y
-# CONFIG_PACKAGE_luci-app-ddns-go is not set
+CONFIG_PACKAGE_luci-app-ddns=y
 # CONFIG_PACKAGE_luci-app-diag-core is not set
 CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm is not set
+CONFIG_PACKAGE_luci-app-diskman_INCLUDE_mdadm=y
 # CONFIG_PACKAGE_luci-app-dnscrypt-proxy is not set
-# CONFIG_PACKAGE_luci-app-docker is not set
+CONFIG_PACKAGE_luci-app-docker=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 # CONFIG_PACKAGE_luci-app-dump1090 is not set
 # CONFIG_PACKAGE_luci-app-dynapoint is not set
@@ -5188,11 +5188,11 @@ CONFIG_PACKAGE_luci-app-frps=y
 # CONFIG_PACKAGE_luci-app-hnet is not set
 # CONFIG_PACKAGE_luci-app-homeproxy is not set
 # CONFIG_PACKAGE_luci-app-https-dns-proxy is not set
-# CONFIG_PACKAGE_luci-app-ipsec-vpnd is not set
-# CONFIG_PACKAGE_luci-app-ipsec-vpnserver-manyusers is not set
+CONFIG_PACKAGE_luci-app-ipsec-vpnd=y
+CONFIG_PACKAGE_luci-app-ipsec-vpnserver-manyusers=y
 # CONFIG_PACKAGE_luci-app-kcptun is not set
 # CONFIG_PACKAGE_luci-app-keepalived is not set
-# CONFIG_PACKAGE_luci-app-kodexplorer is not set
+CONFIG_PACKAGE_luci-app-kodexplorer=y
 CONFIG_PACKAGE_luci-app-ksmbd=y
 # CONFIG_PACKAGE_luci-app-ledtrig-rssi is not set
 # CONFIG_PACKAGE_luci-app-ledtrig-switch is not set
@@ -5201,7 +5201,7 @@ CONFIG_PACKAGE_luci-app-ksmbd=y
 # CONFIG_PACKAGE_luci-app-lxc is not set
 # CONFIG_PACKAGE_luci-app-mentohust is not set
 # CONFIG_PACKAGE_luci-app-microsocks is not set
-# CONFIG_PACKAGE_luci-app-minidlna is not set
+CONFIG_PACKAGE_luci-app-minidlna=y
 # CONFIG_PACKAGE_luci-app-minieap is not set
 # CONFIG_PACKAGE_luci-app-mjpg-streamer is not set
 # CONFIG_PACKAGE_luci-app-msd_lite is not set
@@ -5219,8 +5219,8 @@ CONFIG_PACKAGE_luci-app-ksmbd=y
 # CONFIG_PACKAGE_luci-app-ngrokc is not set
 # CONFIG_PACKAGE_luci-app-njitclient is not set
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
-# CONFIG_PACKAGE_luci-app-nps is not set
-# CONFIG_PACKAGE_luci-app-ntpc is not set
+CONFIG_PACKAGE_luci-app-nps=y
+CONFIG_PACKAGE_luci-app-ntpc=y
 # CONFIG_PACKAGE_luci-app-nut is not set
 # CONFIG_PACKAGE_luci-app-ocserv is not set
 # CONFIG_PACKAGE_luci-app-oled is not set
@@ -5229,7 +5229,7 @@ CONFIG_PACKAGE_luci-app-ksmbd=y
 # CONFIG_PACKAGE_luci-app-olsr-viz is not set
 # CONFIG_PACKAGE_luci-app-olsrd2 is not set
 # CONFIG_PACKAGE_luci-app-omcproxy is not set
-# CONFIG_PACKAGE_luci-app-openclash is not set
+CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-openvpn=y
 # CONFIG_PACKAGE_luci-app-openvpn-server is not set
 # CONFIG_PACKAGE_luci-app-openwisp is not set
@@ -5242,25 +5242,25 @@ CONFIG_PACKAGE_luci-app-opkg=y
 #
 # Configuration
 #
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_GO is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_tuic_client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin is not set
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Brook=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_NaiveProxy=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Server=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Server=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_GO=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_tuic_client=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Geodata=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray=y
+CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Xray_Plugin=y
 # end of Configuration
 
 # CONFIG_PACKAGE_luci-app-pbr is not set
@@ -5269,7 +5269,7 @@ CONFIG_PACKAGE_luci-app-opkg=y
 # CONFIG_PACKAGE_luci-app-pppoe-server is not set
 # CONFIG_PACKAGE_luci-app-privoxy is not set
 # CONFIG_PACKAGE_luci-app-ps3netsrv is not set
-# CONFIG_PACKAGE_luci-app-qbittorrent is not set
+CONFIG_PACKAGE_luci-app-qbittorrent=y
 # CONFIG_PACKAGE_luci-app-qos is not set
 # CONFIG_PACKAGE_luci-app-radicale is not set
 # CONFIG_PACKAGE_luci-app-radicale2 is not set
@@ -5295,7 +5295,7 @@ CONFIG_PACKAGE_luci-app-samba4=y
 # CONFIG_PACKAGE_luci-app-splash is not set
 # CONFIG_PACKAGE_luci-app-sqm is not set
 # CONFIG_PACKAGE_luci-app-squid is not set
-# CONFIG_PACKAGE_luci-app-ssr-libev-server is not set
+# CONFIG_PACKAGE_luci-app-ssr-libev-server=y
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_NONE_Client=y
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client is not set
