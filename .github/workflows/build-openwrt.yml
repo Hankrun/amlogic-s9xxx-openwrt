@@ -180,7 +180,7 @@ on:
         type: choice
         options:
           - angel
-          - yourname
+          - hankrun
 
 env:
   FEEDS_CONF: config/${{ inputs.source_branch }}/feeds.conf.default
